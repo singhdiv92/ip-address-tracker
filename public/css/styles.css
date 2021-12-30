@@ -1,0 +1,90 @@
+*{
+  color: hsl(0, 0%, 59%);
+  font: 700 Rubik, sans-serif;
+  margin-top: 0;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 1.5rem;
+  padding: 20px;
+}
+.item p{
+  font-size: 1rem;
+  margin-top: 10px;
+  color: black;
+}
+
+.btn {
+  background-color: hsl(0, 0%, 17%);
+}
+
+.input-group {
+  background-color: white;
+  width: 400px;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  background-image: url(../images/pattern-bg.png);
+  height: 250px;
+}
+
+.middle {
+  display: flex;
+  position: absolute;
+  top: 200px;
+  left: 55%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 80%;
+}
+.information{
+  display: flex;
+  align-items: flex-start;
+  width: 90%;
+  font-weight: 700;
+  
+}
+.item {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 0px;
+  height: 100px;
+  font-size: .625rem;
+}
+
+#map { 
+  height: 500px;
+  background-image: url(https://heera.it/wp-content/uploads/2011/11/google-maps-new-interface1.jpg);
+}
+
+ .last{
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+ .first{
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+footer {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  height: 2.5rem;
+}
+footer p{
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color:  hsl(0, 0%, 17%);
+}
